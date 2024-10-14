@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning Quiz</title>
+    <link rel="stylesheet" href="listeningQ.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Listening Quiz</h1>
+        <div class="language-selection">
+            <button onclick="setLanguage('polish')">Polish</button>
+            <button onclick="setLanguage('italian')">Italian</button>
+        </div>
+        <div class="game-container">
+            <p id="question">Click on the correct image:</p>
+            <div class="images-container">
+                
+            </div>
+            <button onclick="speakWord()"> Play </button>
+            <p id="score">Score: 0</p>
+            <p id="message"></p>
+        </div>
+    </div>
+    <script src="listeningQ.js"></script>
+</body>
+</html>
